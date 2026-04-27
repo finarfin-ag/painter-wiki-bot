@@ -71,15 +71,4 @@ cd painter-wiki-bot
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env
-nano .env
-BOT_TOKEN=8704671069:AAFu8mq3jtjXvoBeu2klRvqAyQCNmzlijy8
-python3 main.py
-cat > ~/painterbot/.env.example << 'EOF'
-
-# Copy this file to .env and add your token
-
-# Get your token from @BotFather on Telegram
-
-BOT_TOKEN=8704671069:AAFu8mq3jtjXvoBeu2klRvqAyQCNmzlijy8
 
